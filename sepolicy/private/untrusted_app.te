@@ -1,2 +1,7 @@
 get_prop(untrusted_app, persist_camera_prop)
 get_prop(untrusted_app, vendor_camera_prop)
+allow untrusted_app apexd_prop:file { open };
+allow untrusted_app apexd_prop:file { getattr };
+allow untrusted_app apexd_prop:file { map };
+allow untrusted_app bluetooth_a2dp_offload_prop:file { open };
+allow untrusted_app bluetooth_a2dp_offload_prop:file { getattr };

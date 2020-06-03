@@ -5,4 +5,4 @@ get_prop(system_app, persist_camera_prop);
 get_prop(system_app, vendor_camera_prop);
 
 allow system_app selinuxfs:file { open read }; 
-
+allow system_app system_data_file:dir { read };
