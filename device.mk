@@ -51,7 +51,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     BluetoothQti
 
-
+# GCam
+PRODUCT_PACKAGES += \
+    GCam \
+    $(LOCAL_PATH)/gcam/Permissions/gcam-permissions.xml
+    
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
