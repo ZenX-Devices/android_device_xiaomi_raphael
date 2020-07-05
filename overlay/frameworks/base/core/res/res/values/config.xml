@@ -610,5 +610,8 @@
     <!-- Sets the package name for device parts-->
     <string name="config_device_parts_package_name" translatable="false">org.lineageos.settings</string>
     <string name="config_device_parts_package_activity" translatable="false">org.lineageos.settings.popupcamera.PopupCameraSettingsActivity</string>
+
+    <!-- FOD Icon Dimming -->
+    <bool name="config_targetUsesInKernelDimming">false</bool>
 </resources>
 
