@@ -6,11 +6,8 @@
 
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
-# Inherit some common AOSiP stuff.
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
-
-# Official-ify
-DERP_BUILDTYPE := Official
+# Inherit some common ZenX-OS stuff.
+$(call inherit-product, vendor/zenx/config/common_full_phone.mk)
 
 # Setup Gapps options
 IS_PHONE := true
@@ -24,11 +21,14 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := false
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := raphael
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := derp_raphael
+PRODUCT_NAME := zenx_raphael
 
 BUILD_FINGERPRINT := "Xiaomi/raphaelin/raphaelin:9/PKQ1.181121.001/V10.3.3.0.PFKINXM:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 $(call inherit-product, vendor/ANXCamera/config.mk)
+
+# Official Tag
+ZENX_BUILD_TYPE := Official
 
