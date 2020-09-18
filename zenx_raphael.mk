@@ -27,7 +27,6 @@ BUILD_FINGERPRINT := "Xiaomi/raphaelin/raphaelin:9/PKQ1.181121.001/V10.3.3.0.PFK
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-$(call inherit-product, vendor/ANXCamera/config.mk)
 
 # Official Tag
 ZENX_BUILD_TYPE := Official
