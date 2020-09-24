@@ -164,7 +164,7 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
     device/qcom/sepolicy/generic/public \
     device/qcom/sepolicy/qva/public
-SELINUX_IGNORE_NEVERALLOW := true
+
 # Power
 TARGET_USES_INTERACTION_BOOST := true
 TARGET_TAP_TO_WAKE_NODE := "/dev/input/event3"

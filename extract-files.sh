@@ -14,7 +14,7 @@ VENDOR=xiaomi
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
-AOSIP_ROOT="${MY_DIR}"/../../..
+ZENX_ROOT="${MY_DIR}"/../../..
 
 HELPER="${ZENX_ROOT}/vendor/zenx/build/tools/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
